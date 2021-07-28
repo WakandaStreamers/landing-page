@@ -10,194 +10,21 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  min-height: 100%;
-  position: absolute;
+  min-height: 100vh;
   top: 0;
   left: 0;
   text-align: center;
   font-size: 20px;
   color: #FFFFFF;
-  background-image: linear-gradient(
-      rgba(178, 36, 239, 0.87),
-      rgba(178, 36, 239, 0.842),
-      rgba(178, 36, 239, 0.87),
-      rgba(117, 122, 255, 0.863),
-      rgba(117, 122, 255, 0.836)
 
-    );
 } 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Bebas Neue';
 }
 
-a, button {
-  cursor: pointer
-}
-
 .logo {
-  border-radius: 100%;
-  width: 150px;
-}
-
-.title {
-  font-size: 42px;
-  margin: 1rem;
-}
-
-.subtitle {
-  font-family: 'Nunito Sans';
-  font-size: 1.3rem;
-  line-height: 1.4;
-}
-
-/*.neon {
-  width: 100%;	
-	top: 0;
-	left: 0;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-	background: rgba(253, 253, 253, 0.81); 
-	background:-moz-linear-gradient(45deg, rgba(140, 0, 255, .6) 0%, rgba(33, 253, 125, 0.877) 100%);
-	background:   -webkit-gradient( left bottom, right top, color-stop (0%, rgba(33, 253, 125, 0.877) ), color-stop(100%, rgba(154, 0, 226, 0.7) ) );
-	background: -webkit-linear-gradient(45deg, rgba(140, 0, 255, 0.76) 0%, rgba(33, 253, 125, 0.877) 100%); 
-	background:  -o-linear-gradient(45deg, rgba(140, 0, 255, 0.753) 0%, rgba(33, 253, 125, 0.877) 100%);
-	background: -ms-linear-gradient(45deg, rgba(140, 0, 255, 0.795) 0%, rgba(33, 253, 125, 0.877) 100%);
-	background:     linear-gradient(45deg, rgba(140, 0, 255, 0.795) 0%, rgba(33, 253, 125, 0.877) 100%);
-  height: 100%;
-	z-index: 100;
-	-webkit-transform: translate3d(0, 0, 0);
-}*/
-
-#grad {
-  /*
-    background-image: linear-gradient(180deg, #00F2FE 0%, #4FACFE 100%);
-  background-image: linear-gradient(180deg, #B224EF 0%, #7579FF 100%);
-  background-image: linear-gradient(180deg, #F093FB 0%, #F5576C 100%);
-background-image: linear-gradient(180deg, #FFFEFF 0%, #D7FFFE 100%);
-  background-image: linear-gradient(180deg, #FFD200 0%, #F7971E 100%);
-  background-image: linear-gradient(180deg, #F09819 -27.88%, #FF512F 58.7%);*/
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-}
-
-.gradbut {
-  background: linear-gradient(180deg, #00F2FE 0%, #4FACFE 100%);
-  border: 3px solid #FFFFFF;
-  border-radius: 8px;
-  width: 280px;
-  height: 62px;
-  font-family: 'Bebas Neue';
-  font-size: 25px;
-  color: white;
-}
-
-.icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 60px;
-  margin-bottom: 60px;
-}
-
-.icons a {
-  width: 80px;
-  height: 80px;
-  background:rgba(255, 255, 255, .4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  border-radius: 100%;
-  border: 2.5px solid #FFFFFF;
-}
-
-.icons i{
-  color: #fff;
-}
-
-#icons a {
-  /* espaçamento entre os ícones */
-  margin: 10px;
-  /* aumentar tamanho dos ícones*/
-  font-size: 50px;
-}
-
-.copyright{
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 60px;
-	font-size: 1rem;
-  font-family: 'Nunito Sans';
-  display: flex;
-  align-items: center;
-  justify-content: center;
-	background-color: #1d1d1d;
-/*small caps, destaca a maíuscula do texto*/
-/*como colocar uma parte em negrito ou tudo???*/
-	font-variant: small-caps;
- 
-}
-
-/* 
-#B224EF
-#7579FF
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans&display=swap');
-
-html, body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-}
-
-body {
-  
-  justify-content: flex-end;
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-align: center;
-  font-size: 20px;
-  color: #FFFFFF;
-  /*background-image: linear-gradient(
-  rgba(178, 36, 239, 0.87),
-  rgba(178, 36, 239, 0.842),
-  rgba(178, 36, 239, 0.87),
-  rgba(3, 4, 7, 0.863),
-  rgba(0, 1, 7, 0.836)
-
-  );*/   
-} 
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bebas Neue';
-}
-
-a, button {
-  cursor: pointer
-}
-
-.logo {
-  border-radius: 100%;
-  width: 150px;
+  width: 15%;
 }
 
 .title {
@@ -241,7 +68,28 @@ a, button {
 }
 
 
-.grad {
+/*.neon {
+  width: 100%;	
+	top: 0;
+	left: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+	background: rgba(253, 253, 253, 0.81); 
+	background:-moz-linear-gradient(45deg, rgba(140, 0, 255, .6) 0%, rgba(33, 253, 125, 0.877) 100%);
+	background:   -webkit-gradient( left bottom, right top, color-stop (0%, rgba(33, 253, 125, 0.877) ), color-stop(100%, rgba(154, 0, 226, 0.7) ) );
+	background: -webkit-linear-gradient(45deg, rgba(140, 0, 255, 0.76) 0%, rgba(33, 253, 125, 0.877) 100%); 
+	background:  -o-linear-gradient(45deg, rgba(140, 0, 255, 0.753) 0%, rgba(33, 253, 125, 0.877) 100%);
+	background: -ms-linear-gradient(45deg, rgba(140, 0, 255, 0.795) 0%, rgba(33, 253, 125, 0.877) 100%);
+	background:     linear-gradient(45deg, rgba(140, 0, 255, 0.795) 0%, rgba(33, 253, 125, 0.877) 100%);
+  height: 100vh;
+	z-index: 100;
+	-webkit-transform: translate3d(0, 0, 0);
+}*/
+
+#grad {
   /*
   background-image: linear-gradient(180deg, #00F2FE 0%, #4FACFE 100%);
   background-image: linear-gradient(180deg, #B224EF 0%, #7579FF 100%);
@@ -252,10 +100,13 @@ a, button {
   flex-direction: column;
   display: flex;
   justify-content: center;
- 
 }
 
 /*Button*/
+
+a, button {
+  cursor: pointer 
+}
 
 .gradbut {
   width: 220px;
@@ -341,7 +192,7 @@ a, button {
 
   }
 
-  /* (50% zoom - Observação: se o zoom for muito grande, ele sairá da janela de visualização) */
+  /* Zoom Icons (50% zoom - Observação: se o zoom for muito grande, ele sairá da janela de visualização) */
 
   .fb:hover {
   transform: scale(1.2); 
@@ -370,6 +221,9 @@ a, button {
   .mail:hover {
   transform: scale(1.2); 
 }
+
+/*icons*/
+
   .icons i{
   color: #fff;
 }
@@ -381,28 +235,23 @@ a, button {
   font-size: 50px;
 }
 
+/*footer*/
+
 footer {
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   height: 0;
-  width: 100vw;
-  margin-top: auto;
-  padding-top: 80px;
+  width: 100%;
   background-color: #111;
   color: #fff;
+  
 }
 
 .copyright{
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-family: 'Nunito Sans';
-  font-size: 1rem;
-}
-
-/*.copyright{
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 60px;
 	font-size: 1rem;
@@ -410,18 +259,12 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-	background-color: #0303039a;
-  clear: both;
-    position: fixed;
-    height: 100px;
-    margin-top:  200px;
- 
+	background-color: #1d1d1d;
 /*small caps, destaca a maíuscula do texto*/
-/*como colocar uma parte em negrito ou tudo???
-	
-}*/
-
-
+/*como colocar uma parte em negrito ou tudo???*/
+	font-variant: small-caps;
+ 
+}
 
 /* 
 #B224EF
